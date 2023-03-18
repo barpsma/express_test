@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
     res.send("halo guys")
 })
 app.get('/user', (req, res) => {
-    res.send("halo guys ini halaman user ya")
+    res.send("halo guys ini halaman user ya)
 })
 
 app.listen(port, () => console.log(`listening port ${port}`))
